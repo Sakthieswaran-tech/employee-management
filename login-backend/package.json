@@ -1,0 +1,20 @@
+{
+  "name": "login-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connectDB.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}

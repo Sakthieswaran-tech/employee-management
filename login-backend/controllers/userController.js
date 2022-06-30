@@ -113,6 +113,7 @@ const deleteUser=(req,res)=>{
     })
 }
 
+
 module.exports={
     createUser,
     getUser,

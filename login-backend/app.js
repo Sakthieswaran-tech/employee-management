@@ -20,6 +20,7 @@ app.use((req,res,next)=>{
     next()
 })
 
+
 app.use("/users",userroutes)
 
 app.listen(5000,()=>{

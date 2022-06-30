@@ -7,6 +7,7 @@ const con=mysql.createConnection({
     database:DATABASE
 })
 
+
 con.connect(function(err){
     if(err){
         console.log(err);
